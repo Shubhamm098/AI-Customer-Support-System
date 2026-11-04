@@ -1,0 +1,21 @@
+{
+  "refund_policy": {
+    "return_window_days": 30,
+    "gold_return_window_days": 45,
+    "auto_approve_limit": 500,
+    "max_refunds_per_order": 1
+  },
+  "shipping_policy": {
+    "standard_days": "3-5",
+    "express_days": "1-2"
+  },
+  "password_reset_policy": {
+    "max_resets_per_day": 3,
+    "requires_verified_email": true
+  },
+  "escalation_policy": {
+    "escalate_on_angry_sentiment": true,
+    "escalate_on_fraud_signals": true,
+    "escalate_refunds_above": 500
+  }
+}
